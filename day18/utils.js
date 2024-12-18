@@ -1,6 +1,6 @@
 const fs = require('fs');
 const R = require('ramda');
-const A = require('./astar');
+const A = require('../lib/astar');
 
 function runWrapper(parseFunc, mainFunc, opts) {
 
